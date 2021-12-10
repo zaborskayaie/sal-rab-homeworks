@@ -34,6 +34,7 @@ function addInCartSumChange(sum, delta) {
 
     let newSum =  oldSum + difference;
     let newSumText = newSum + " ₽";
+    newSumText = `${newSum} ₽`; // оказыватеся есть разница в кавычках, их 3 вида %) "" '' ``
 
     console.log(oldSum, difference, newSum, newSumText);
 
